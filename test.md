@@ -15,12 +15,28 @@ $\mathbb{E}=\frac{1}{2}$
 
 #### H4
 
-```Python
-import numpy as np
-print("Stein")
+```latex
+%%latex
+
+This is some text written in \LaTeX. Math expressions can also be used, as in the following:
+\begin{equation}
+S_N \equiv \frac{\pi^2}{6} - \sum_{k=1}^{N} \frac{1}{k^2}
+\end{equation}
 ```
 
-$$ X=2 $$
+```Python
+import numpy as np
+import matplotlib.pyplot as plt
+print("Stein")
+print("Petter")
+x = np.array([1,2,3,4,5])
+plt.plot(x)
+```
+
+```latex
+%%latex
+ $$X=2$$
+```
 
 - A
   - [ ] A1
